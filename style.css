@@ -54,6 +54,7 @@
     flex: auto;
     color: rgb(220, 220, 220);
     padding-bottom: 30px;
+    font-size: 16px;
 }
 
 a {
@@ -76,16 +77,39 @@ body {
 }
 
 .heading-text {
-    margin-left: var(--left);
     margin-top: 200px;
     font-weight: bold;
     font-size: 25px;
+    margin-bottom: 70px;
+    margin-left: var(--left);
 }
 
 p + p {
     margin-top: 30px;
 }
 
+.form-section {
+    background-color: white;
+    padding: 20px 0px 20px var(--left);
+}
 
+h2 {
+    margin-bottom: 20px;
+}
+
+.content-section {
+    width: 60vw;
+}
+
+label {
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 500px;
+}
 
 
