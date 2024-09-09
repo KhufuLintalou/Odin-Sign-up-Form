@@ -13,6 +13,7 @@
 .container {
     display: flex;
     flex-direction: row;
+    min-height: 150vh;
 }
 
 /* Styles for left section. */
@@ -21,7 +22,6 @@
     background-image: url(images/background-image.jpg);
     background-size: 100%;
     width: 40vw;
-    height: 150vh;
     display: flex;
     position: relative;
 }
