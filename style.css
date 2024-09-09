@@ -138,6 +138,13 @@ input[type="password"]:invalid {
     outline: none;
 }
 
+input[type="password"]:invalid + div::after {
+    content: "* Password do not match";
+    position: absolute;
+    color: darkred;
+    font-size: 12px;
+}
+
 button {
     margin: 30px 0px 30px var(--left);
     padding: 10px 40px 10px 40px;
